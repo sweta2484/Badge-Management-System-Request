@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Badge Management System Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Badge Management System Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">17e6835bd12302104f34ba60d8b7c1f4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 02:39:47</sys_created_on>
+        <sys_id>feeeb8c7c37702101b58facc0501310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badge Management System Request</sys_name>
+        <sys_package display_value="Badge Management System" source="x_1138917_badge_0">6aee78c7c37702101b58facc050131f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Badge Management System">6aee78c7c37702101b58facc050131f6</sys_scope>
+        <sys_update_name>sys_wizard_answer_feeeb8c7c37702101b58facc0501310f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 02:39:47</sys_updated_on>
+        <table/>
+        <target_url>x_1138917_badge_0_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

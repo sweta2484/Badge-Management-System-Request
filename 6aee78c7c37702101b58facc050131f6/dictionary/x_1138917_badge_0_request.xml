@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="26eeb8c7c37702101b58facc0501310d" extends="sn_creatorstudio_task" label="Badge Management System Request" max_length="40" name="x_1138917_badge_0_request" type="collection">
+        <element label="Badge Type" max_length="40" name="badge_type" type="string"/>
+        <element label="Issue Date" max_length="40" name="issue_date" type="glide_date"/>
+        <element label="Expiry Date" max_length="40" name="expiry_date" type="glide_date"/>
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element label="Employee Name" mandatory="true" max_length="100" name="employee_name" type="string"/>
+        <element choice="1" display="true" label="Clearance Level" mandatory="true" max_length="40" name="clearance_level" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="0"/>
+                <element inactive_on_update="false" label="Low" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="0"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="Badge ID" mandatory="true" max_length="40" name="badge_id" type="integer"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+    </element>
+</database>

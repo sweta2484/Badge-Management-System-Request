@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Application and Account Access">22555319db0150104327198d1396195c</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-08 03:07:05</sys_created_on>
         <sys_id>1a2549cfc37702101b58facc050131e1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Badge Request</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Badge Management System">6aee78c7c37702101b58facc050131f6</sys_scope>
         <sys_update_name>sc_cat_item_producer_1a2549cfc37702101b58facc050131e1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-08 03:24:44</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-08 05:36:45</sys_updated_on>
         <table_name>x_1138917_badge_0_request</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>1</version>
+        <version>8</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -169,4 +169,15 @@
         <sys_created_on>2024-08-08 03:16:56</sys_created_on>
         <sys_id>72674943c3b702101b58facc05013188</sys_id>
     </sys_attachment_doc>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>1a2549cfc37702101b58facc050131e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 05:32:12</sys_created_on>
+        <sys_id>1c6661c7c3f702101b58facc05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 05:32:12</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
