@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref/>
+        <question display_value="Badge Type">af18c9c3c3b702101b58facc05013175</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 03:21:58</sys_created_on>
+        <sys_id>e4988507c3b702101b58facc050131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Badge Management System">6aee78c7c37702101b58facc050131f6</sys_scope>
+        <sys_update_name>question_choice_e4988507c3b702101b58facc050131e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 03:21:58</sys_updated_on>
+        <text>Visitor</text>
+        <value>visitor</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e4988507c3b702101b58facc050131e5"/>
+</record_update>
